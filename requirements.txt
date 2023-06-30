@@ -1,0 +1,33 @@
+# These are dev requirements
+
+# see src/requirements.txt for lambda specific requirements
+
+# boto3 is included in the lambda runtime, so we don't need to add it to src/requirements.txt
+boto3==1.26.*
+
+# Step function generator library
+stepfunctions==2.3
+
+# SAM CLI
+aws-sam-cli==1.89.0
+
+# Pytest
+pytest==7.2
+pytest-xdist==2.2
+
+# Release management scripts
+typer==0.7
+PyGithub==1.57
+
+# Nested asyncio for smoke tests
+nest-asyncio~=1.5
+python-kacl==0.2.29
+
+# linter and code style
+pre-commit==3.3.*
+ruff==0.0.275
+black==23.3.0
+
+# Snyk vulnerability fixes
+setuptools>=65.5.1
+wheel>=0.38.0
