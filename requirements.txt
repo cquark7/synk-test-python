@@ -26,7 +26,7 @@ python-kacl==0.2.29
 # linter and code style
 pre-commit==3.3.*
 ruff==0.0.275
-black==23.3.0
+black==24.3.0
 
 # Snyk vulnerability fixes
 setuptools>=65.5.1
