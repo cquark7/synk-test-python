@@ -1,4 +1,6 @@
+import os
 import sqlite3
+import sys
 
 def process_user_input():
     user_input = input("Enter a command: ")
@@ -55,8 +57,6 @@ def user_login(username, password):
         return "Login successful"
     else:
         return "Login failed"
-
-# Example usage
 
 
 if __name__ == "__main__":
